@@ -74,6 +74,26 @@ return [
     'cms' => [
         'menu_label' => "CMS"
     ],
+    'sidebar' => [
+        'add' => 'Добавить',
+        'search' => 'Поиск...'
+    ],
+    'editor' => [
+        'settings' => 'Настройки',
+        'title' => 'Заголовок',
+        'new_title' => 'Заголовок страницы',
+        'url' => 'Адрес',
+        'filename' => 'Имя файла',
+        'layout' => 'Шаблон',
+        'description' => 'Описание',
+        'preview' => 'Предпросмотр',
+        'meta' => 'Метатеги',
+        'meta_title' => 'Заголовок (meta)',
+        'meta_description' => 'Описание (meta)',
+        'markup' => 'Разметка',
+        'code' => 'Код',
+        'content' => 'Содержание',
+    ],
     'asset' => [
         'menu_label' => "Ресурсы",
         'drop_down_add_title' => 'Добавить...',
