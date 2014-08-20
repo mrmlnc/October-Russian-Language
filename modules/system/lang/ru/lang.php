@@ -9,11 +9,14 @@ return [
         'en' => 'English',
         'nl' => 'Dutch',
         'ja' => 'Japanese',
-        'sv' => 'Swedish',
+        'se' => 'Swedish',
         'tr' => 'Turkish',
         'br' => 'Brazilian Portuguese',
         'de' => 'German',
         'ru' => 'Russian',
+        'fr' => 'French',
+        'it' => 'Italian',
+        'ro' => 'Romana',
     ],
     'directory' => [
         'create_fail' => "Невозможно создать директорию: :name",
@@ -24,6 +27,20 @@ return [
     'system' => [
         'name' => 'Система',
         'menu_label' => 'Система',
+        'categories' => [
+            'cms' => 'CMS',
+            'misc' => 'Разное',
+            'logs' => 'Логи',
+            'mail' => 'Почта',
+            'shop' => 'Магазин',
+            'team' => 'Команда',
+            'users' => 'Пользователи',
+            'system' => 'Система',
+            'social' => 'Социальное',
+            'events' => 'События',
+            'customers' => 'Клиентское',
+            'my_settings' => 'Мои настройки',
+        ],
     ],
     'plugin' => [
         'unnamed' => 'Безымянный плагин',
@@ -41,8 +58,11 @@ return [
         'disabled_label' => 'Отключить',
         'disabled_help' => 'Отключенные плагины будут игнорироваться.',
         'selected_amount' => 'Выбрано плагинов: :amount',
+        'remove_confirm' => 'Вы уверены?',
         'remove_success' => "Выбранные плагины успешно удалены.",
+        'refresh_confirm' => 'Вы уверены?',
         'refresh_success' => "Выбранные плагины успешно обновлены.",
+        'disable_confirm' => 'Вы уверены?',
         'disable_success' => "Плагин успешно отключен.",
         'enable_success' => "Плагин успешно включен.",
         'unknown_plugin' => "Плагин был удален из файловой системы.",
@@ -206,4 +226,11 @@ return [
         'url' => 'Адрес',
         'status_code' => 'Статус',
     ],
+    'permissions' => [
+        'manage_system_settings' => 'Настройка системных параметров',
+        'manage_software_updates' => 'Управлять обновлениями',
+        'manage_mail_templates' => 'Управление почтовыми шаблонами',
+        'manage_other_administrators' => 'Управление другими администраторами',
+        'view_the_dashboard' => 'Просмотр приборной панели'
+    ]
 ];
