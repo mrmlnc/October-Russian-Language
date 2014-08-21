@@ -49,7 +49,7 @@ return [
         'widget_width' => 'Ширина',
         'full_width' => 'полная ширина',
         'add_widget' => 'Добавить виджет',
-        'widget_inspector_title' => 'Конфигурации виджета',
+        'widget_inspector_title' => 'Конфигурация виджета',
         'widget_inspector_description' => 'Настройка отображения виджета',
         'widget_columns_label' => 'Ширина :columns',
         'widget_columns_description' => 'Ширина виджета может варьироваться от 1 до 10.',
