@@ -3,7 +3,7 @@
 return [
     'app' => [
         'name' => 'October CMS',
-        'motto' => 'Возвращение к истокам',
+        'tagline' => 'Возвращение к истокам',
     ],
     'locale' => [
         'en' => 'English',
@@ -11,18 +11,22 @@ return [
         'ja' => 'Japanese',
         'se' => 'Swedish',
         'tr' => 'Turkish',
-        'br' => 'Brazilian Portuguese',
         'de' => 'German',
         'ru' => 'Russian',
         'fr' => 'French',
         'it' => 'Italian',
         'ro' => 'Romana',
+        'pt-br' => 'Brazilian Portuguese',
+        'fa' => 'Persian',
     ],
     'directory' => [
         'create_fail' => "Невозможно создать директорию: :name",
     ],
     'file' => [
         'create_fail' => "Невозможно создать файл: :name",
+    ],
+    'combiner' => [
+        'not_found' => "Сборщик ресурсов не может найти файл ':name'.",
     ],
     'system' => [
         'name' => 'Система',
@@ -106,6 +110,11 @@ return [
         'sendmail' => 'Sendmail',
         'sendmail_path' => 'Sendmail Путь',
         'sendmail_path_comment' => 'Пожалуйста, укажите путь к sendmail.',
+        'mailgun' => 'Mailgun',
+        'mailgun_domain' => 'Mailgun домен',
+        'mailgun_domain_comment' => 'Пожалуйста, укажите Mailgun домен.',
+        'mailgun_secret' => 'Секретный API-ключ',
+        'mailgun_domain_secret' => 'Введите ваш Mailgun API-ключ.',
     ],
     'mail_templates' => [
         'menu_label' => 'Шаблоны почты',
