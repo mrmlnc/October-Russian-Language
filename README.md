@@ -1,6 +1,6 @@
 # OctoberCMS [Русская версия]
 
-Полный перевод языковых файлов OctoberCMS (Build 167) на русский язык.
+Полный перевод языковых файлов OctoberCMS (Build 259) на русский язык.
 
 ## Ошибки
 
@@ -9,3 +9,5 @@
 ## Русскоговорящее сообщество
 
  * [octobercms.ru](http://octobercms.ru/)
+ * [octobercms.info](http://octobercms.info/)
+ * [Группа в ВК](http://vk.com/octobercms)
