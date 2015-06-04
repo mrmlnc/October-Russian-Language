@@ -3,7 +3,7 @@
 return [
     'app' => [
         'name' => 'October CMS',
-        'tagline' => 'Возвращение к истокам',
+        'tagline' => 'Возвращение к истокам'
     ],
     'locale' => [
         'en' => 'English',
