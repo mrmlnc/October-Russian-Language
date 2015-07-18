@@ -18,6 +18,9 @@ return [
             'label' => 'Access denied',
             'help' => "You don't have the required permissions to view this page.",
             'cms_link' => 'Return to the back-end'
+        ],
+        'invalid_token' => [
+            'label' => 'Invalid security token'
         ]
     ],
     'partial' => [
@@ -92,7 +95,7 @@ return [
         'send_invite' => 'Send invitation by email',
         'send_invite_comment' => 'Sends a welcome message containing login and password information.',
         'delete_confirm' => 'Do you really want to delete this administrator?',
-        'return' => 'Return to the administrator list',
+        'return' => 'Return to admin list',
         'allow' => 'Allow',
         'inherit' => 'Inherit',
         'deny' => 'Deny',
@@ -105,9 +108,10 @@ return [
             'code_comment' => 'Enter a unique code if you want to access it with the API.',
             'menu_label' => 'Groups',
             'list_title' => 'Manage Groups',
-            'new' => 'New Administrator Group',
+            'new' => 'New Group',
             'delete_confirm' => 'Do you really want to delete this administrator group?',
-            'return' => 'Return to the group list'
+            'return' => 'Return to group list',
+            'users_count' => 'Users'
         ],
         'preferences' => [
             'not_authenticated' => 'There is no an authenticated user to load or save preferences for.'
@@ -140,7 +144,13 @@ return [
         'attachment' => 'Attachment',
         'help' => 'Add a title and description for this attachment.',
         'title_label' => 'Title',
-        'description_label' => 'Description'
+        'description_label' => 'Description',
+        'default_prompt' => 'Click the %s or drag a file here to upload',
+        'attachment_url' => 'Attachment URL',
+        'upload_file' => 'Upload file',
+        'upload_error' => 'Upload error',
+        'remove_confirm' => 'Are you sure?',
+        'remove_file' => 'Remove file'
     ],
     'form' => [
         'create_title' => 'New :name',
@@ -181,7 +191,8 @@ return [
         'or' => 'or',
         'confirm_tab_close' => 'Do you really want to close the tab? Unsaved changes will be lost.',
         'behavior_not_ready' => 'Form behavior has not been initialized, check that you have called initForm() in your controller.',
-        'preview_no_files_message' => 'Files are not uploaded',
+        'preview_no_files_message' => 'There are no files uploaded.',
+        'preview_no_record_message' => 'There is no record selected.',
         'select' => 'Select',
         'select_all' => 'all',
         'select_none' => 'none',

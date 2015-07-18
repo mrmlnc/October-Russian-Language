@@ -56,6 +56,7 @@ return [
         ]
     ],
     'theme' => [
+        'label' => 'Тема',
         'unnamed' => 'Безымянная тема',
         'name' => [
             'label' => 'Название темы',
@@ -71,6 +72,7 @@ return [
         'remove_confirm' => 'Вы уверены, что хотите удалить выбранную тему?'
     ],
     'plugin' => [
+        'label' => 'Плагин',
         'unnamed' => 'Безымянный плагин',
         'name' => [
             'label' => 'Имя плагина',
@@ -91,6 +93,8 @@ return [
         'refresh' => 'Обновить',
         'disabled_label' => 'Отключить',
         'disabled_help' => 'Отключенные плагины будут игнорироваться.',
+        'frozen_label' => 'Замораживание обновления',
+        'frozen_help' => 'Плагины, которые были заморожены игнорируются в процессе обновления.',
         'selected_amount' => 'Выбрано плагинов: :amount',
         'remove_confirm' => 'Вы уверены, что хотите удалить этот плагин?',
         'remove_success' => 'Выбранные плагины успешно удалены.',
@@ -150,7 +154,9 @@ return [
         'mailgun_secret_comment' => 'Введите ваш Mailgun API-ключ.',
         'mandrill' => 'Mandrill',
         'mandrill_secret' => 'Секретный ключ Mandrill',
-        'mandrill_secret_comment' => 'Введите ваш Mandrill API-ключ.'
+        'mandrill_secret_comment' => 'Введите ваш Mandrill API-ключ.',
+        'drivers_hint_header' => 'Драйвера не установлены',
+        'drivers_hint_content' => 'Этот почтовый метод требует плагин ":plugin", установленный прежде, чем можно будет отправлять почту.'
     ],
     'mail_templates' => [
         'menu_label' => 'Шаблоны почты',
@@ -190,16 +196,17 @@ return [
         'name' => 'Обновление ПО',
         'menu_label' => 'Обновления',
         'menu_description' => 'Обновление системы, управление и установка плагинов и тем.',
+        'return_link' => 'Вернуться к системе обновлений',
         'check_label' => 'Проверить обновления ',
         'retry_label' => 'Попробовать еще раз',
         'plugin_name' => 'Название',
+        'plugin_code' => 'Код',
         'plugin_description' => 'Описание',
         'plugin_version' => 'Версия',
         'plugin_author' => 'Автор',
-        'core_build' => 'Текущая сборка',
-        'core_build_old' => '(Текущая сборка :build)',
-        'core_build_new' => 'Сборка :build',
-        'core_build_new_help' => 'Последняя доступная сборка.',
+        'core_current_build' => 'Текущая сборка',
+        'core_build' => 'Сборка :build',
+        'core_build_help' => 'Последняя доступная сборка.',
         'core_downloading' => 'Загрузка файлов приложения',
         'core_extracting' => 'Распаковка файлов приложения',
         'plugins' => 'Плагины',
@@ -208,9 +215,7 @@ return [
         'plugin_downloading' => 'Загрузка плагина: :name',
         'plugin_extracting' => 'Распаковка плагина: :name',
         'plugin_version_none' => 'Новый плагин',
-        'plugin_version_old' => 'Текущая версия v:version',
-        'plugin_version_new' => 'v:version',
-        'theme_label' => 'Темы',
+        'plugin_current_version' => 'Текущая версия',
         'theme_new_install' => 'Новая тема установлена.',
         'theme_downloading' => 'Загрузка темы: :name',
         'theme_extracting' => 'Распаковка темы: :name',
@@ -227,7 +232,24 @@ return [
         'none' => [
             'label' => 'Нет обновлений',
             'help' => 'Новые обновления не найдены.'
-        ]
+        ],
+        'important_action' => [
+            'empty' => 'Выберите действие',
+            'confirm' => 'Подтвердите обновление',
+            'skip' => 'Пропустить этот плагин (только один раз)',
+            'ignore' => 'Пропустить этот плагин (всегда)',
+        ],
+        'important_action_required' => 'Необходимое действие',
+        'important_view_guide' => 'Посмотреть руководство по обновлению',
+        'important_alert_text' => 'Некоторые обновления требуют вашего внимания.',
+        'details_title' => 'Информация о плагине',
+        'details_view_homepage' => 'Перейти к домашней странице',
+        'details_readme' => 'Документация',
+        'details_readme_missing' => 'Документация не предоставлена.',
+        'details_upgrades' => 'Инструкция по обновлению',
+        'details_upgrades_missing' => 'Инструкция по обновлению не предоставлена.',
+        'details_current_version' => 'Текущая версия',
+        'details_author' => 'Автор',
     ],
     'server' => [
         'connect_error' => 'Ошибка подключения к серверу.',
