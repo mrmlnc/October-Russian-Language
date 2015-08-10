@@ -187,6 +187,7 @@ return [
         'close' => 'Close',
         'confirm' => 'Confirm',
         'reload' => 'Reload',
+        'complete' => 'Complete',
         'ok' => 'OK',
         'or' => 'or',
         'confirm_tab_close' => 'Do you really want to close the tab? Unsaved changes will be lost.',
@@ -259,6 +260,7 @@ return [
         'code_folding' => 'Code folding',
         'word_wrap' => 'Word wrap',
         'highlight_active_line' => 'Highlight active line',
+        'auto_closing' => 'Auto close tags and special characters',
         'show_invisibles' => 'Show invisible characters',
         'show_gutter' => 'Show gutter',
         'theme' => 'Color scheme'

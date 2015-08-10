@@ -8,6 +8,7 @@ return [
     'locale' => [
         'en' => 'English',
         'de' => 'German',
+        'el' => 'Greek',
         'es' => 'Spanish',
         'es-ar' => 'Spanish (Argentina)',
         'fa' => 'Persian',
@@ -26,7 +27,8 @@ return [
         'se' => 'Swedish',
         'sk' => 'Slovak (Slovakia)',
         'tr' => 'Turkish',
-        'zh-cn' => 'Chinese (China)'
+        'zh-cn' => 'Chinese (China)',
+        'zh-tw' => 'Chinese (Taiwan)'
     ],
     'directory' => [
         'create_fail' => 'Невозможно создать директорию: :name'
@@ -168,6 +170,7 @@ return [
         'menu_layouts_label' => 'Макеты почты',
         'layout' => 'Макет',
         'layouts' => 'Макеты',
+        'no_layout' => '-- Нет макета --',
         'name' => 'Название',
         'name_comment' => 'Уникальное имя, используемое для обозначения этого шаблона',
         'code' => 'Код',
