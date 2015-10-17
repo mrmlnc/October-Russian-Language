@@ -138,7 +138,9 @@ return [
         'delete_selected' => 'Удалить выбранное',
         'delete_selected_empty' => 'Нет выбранных записей для удаления.',
         'delete_selected_confirm' => 'Удалить выбранные записи?',
-        'delete_selected_success' => 'Выбранные записи успешно удалены.'
+        'delete_selected_success' => 'Выбранные записи успешно удалены.',
+        'column_switch_true' => 'Да',
+        'column_switch_false' => 'Нет'
     ],
     'fileupload' => [
         'attachment' => 'Приложение',
@@ -199,6 +201,7 @@ return [
         'select_none' => 'ничего',
         'select_placeholder' => 'Пожалуйста, выберите',
         'insert_row' => 'Вставить строку',
+        'insert_row_below' => 'Вставить строку ниже',
         'delete_row' => 'Удалить строку',
         'concurrency_file_changed_title' => 'Файл был изменен',
         'concurrency_file_changed_description' => 'Файл, который вы редактируете был изменен другим пользователем. Вы можете либо перезагрузить файл и потерять ваши изменения или перезаписать его'
@@ -235,6 +238,10 @@ return [
         'unlink' => 'Отвязать',
         'unlink_name' => 'Разъединение :name',
         'unlink_confirm' => 'Вы уверены?'
+    ],
+    'reorder' => [
+        'default_title' => 'Сортировать записи',
+        'no_records' => 'Нет доступных записей для сортировки.',
     ],
     'model' => [
         'name' => 'Модель',

@@ -6,6 +6,7 @@ return [
         'tagline' => 'Возвращение к истокам'
     ],
     'locale' => [
+        'cs' => 'Czech',
         'en' => 'English',
         'de' => 'German',
         'el' => 'Greek',
@@ -24,7 +25,7 @@ return [
         'pt-br' => 'Portuguese (Brazil)',
         'ro' => 'Romanian',
         'ru' => 'Russian',
-        'se' => 'Swedish',
+        'sv' => 'Swedish',
         'sk' => 'Slovak (Slovakia)',
         'tr' => 'Turkish',
         'zh-cn' => 'Chinese (China)',
@@ -146,6 +147,10 @@ return [
         'smtp_password' => 'SMTP пароль',
         'smtp_port' => 'SMTP порт',
         'smtp_ssl' => 'Использовать SSL',
+        'smtp_encryption' => 'Протокол шифрования для SMTP',
+        'smtp_encryption_none' => 'Без шифрования',
+        'smtp_encryption_tls' => 'TLS',
+        'smtp_encryption_ssl' => 'SSL',
         'sendmail' => 'Sendmail',
         'sendmail_path' => 'Sendmail Путь',
         'sendmail_path_comment' => 'Пожалуйста, укажите путь к sendmail.',
@@ -183,7 +188,10 @@ return [
         'content_text' => 'Plaintext',
         'test_send' => 'Отправить тестовое сообщение',
         'test_success' => 'Тестовое сообщение было успешно отправлено.',
-        'return' => 'Вернуться к списку шаблонов'
+        'return' => 'Вернуться к списку шаблонов',
+        'test_confirm' => 'Тестовое сообщение будет отправлено на :email. Продолжить?',
+        'saving' => 'Сохранение шаблона...',
+        'sending' => 'Отправка тестового сообщения...',
     ],
     'install' => [
         'project_label' => 'Присоединить к проекту',
@@ -309,6 +317,8 @@ return [
         'manage_mail_templates' => 'Управление почтовыми шаблонами',
         'manage_mail_settings' => 'Управление настройками почты',
         'manage_other_administrators' => 'Управление другими администраторами',
+        'manage_preferences' => 'Управление настройками бэкенда',
+        'manage_editor' => 'Управление настройками редактора кода',
         'view_the_dashboard' => 'Просмотр панели управления',
         'manage_branding' => 'Персонализация панели управления'
     ]

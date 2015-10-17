@@ -138,7 +138,9 @@ return [
         'delete_selected' => 'Delete selected',
         'delete_selected_empty' => 'There are no selected records to delete.',
         'delete_selected_confirm' => 'Delete the selected records?',
-        'delete_selected_success' => 'Successfully deleted the selected records.'
+        'delete_selected_success' => 'Successfully deleted the selected records.',
+        'column_switch_true' => 'Yes',
+        'column_switch_false' => 'No'
     ],
     'fileupload' => [
         'attachment' => 'Attachment',
@@ -199,6 +201,7 @@ return [
         'select_none' => 'none',
         'select_placeholder' => 'please select',
         'insert_row' => 'Insert Row',
+        'insert_row_below' => 'Insert Row Below',
         'delete_row' => 'Delete Row',
         'concurrency_file_changed_title' => 'File was changed',
         'concurrency_file_changed_description' => "The file you're editing has been changed on disk by another user. You can either reload the file and lose your changes or override the file on the disk."
@@ -235,6 +238,10 @@ return [
         'unlink' => 'Unlink',
         'unlink_name' => 'Unlink :name',
         'unlink_confirm' => 'Are you sure?'
+    ],
+    'reorder' => [
+        'default_title' => 'Reorder records',
+        'no_records' => 'There are no records available to sort.',
     ],
     'model' => [
         'name' => 'Model',

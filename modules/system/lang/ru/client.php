@@ -41,6 +41,14 @@ return [
         'insert_audio' => "Вставить медиа-аудио",
         'invalid_file_empty_insert' => "Пожалуйста, выберите файл для вставки ссылки.",
         'invalid_file_single_insert' => "Пожалуйста, выберите один файл.",
+        'invalid_image_empty_insert' => "Пожалуйста, выберите изображения для вставки.",
+        'invalid_video_empty_insert' => "Пожалуйста, выберите видео для вставки.",
+        'invalid_audio_empty_insert' => "Пожалуйста, выберите аудио для вставки.",
+    ],
+
+    'alert' => [
+        'confirm_button_text' => 'Ок',
+        'cancel_button_text' => 'Отмена',
     ],
 
 ];
